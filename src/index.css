@@ -1,0 +1,135 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+.navbar-back{
+  background-color: #FFAE42;
+  /* position:fixed */
+}
+.navbar-icon{
+  font-size: 25px;
+  padding-right:32px;
+}
+.nav-item-1{
+  font-size: 20px;
+  padding-right:16px;
+}
+.nav-item-1-anchor{
+  font-weight: bold;
+}
+.navbar-input{
+  width:900px;
+  height:40px;
+  border-radius: 16px;
+  margin-top:6px;
+  margin-bottom:6px;
+  margin-left: 48px
+}
+.nav-icon-list{
+  margin-left:32px;
+}
+.nav-icon-list-1{
+  margin-left:24px;
+}
+.nav-home-icon{
+  font-size:20px;
+}
+.nav-help-icon{
+  font-size: 20px;
+  margin-right:10px;
+}
+.nav-signin-icon{
+  font-size: 20px;
+  margin-right:10px;
+}
+.icon-anchor{
+  font-size: 20px;
+  color:black;
+  padding-left:36px
+}
+
+
+/* homeproducts */
+
+.product-card-body{
+  background-color: #FFAE42;
+  color:black;
+  text-align: center;
+}
+.product-card-image{
+  width:100%;
+  height:200px;
+  object-fit: fill;
+}
+.home-card-title-1{
+  font-size: 16px;
+}
+.home-card-title-2{
+  font-size: 20px;
+}
+
+/* sidetab */
+
+.tab-item-anchor{
+  color:black;
+}
+.nav-tabs{
+  border: none;
+}
+.nav-tabs .nav-link{
+  border:none
+}
+.side-nav-column{
+  overflow-y:scroll;
+  /* height:500px */
+}
+
+.btn-div{
+  display: flex;
+  justify-items:flex-end
+}
+
+
+/* footer */
+
+.footer-div{
+  background-color: #fdfcfa;
+  margin-top:36px;
+  display: flex;
+  justify-content: space-between !important;
+}
+.footer-logo-div{
+  display: flex;
+  justify-content: space-between !important;
+}
+.footer-logo-1{
+  width:200px;
+  height:75px;
+  object-fit: fill;
+}
+/* .footer-heading{
+  padding-left:12px
+}
+.footer-anchors-div{
+  padding-left:124px;
+  padding-top:12px
+} */
+.footer-anchor{
+  font-size:20px;
+  text-decoration: none;
+  color:black
+}
+
+/* topbar */
+.drawer{
+  top:68px !important;
+  left:0px;
+  position:"fixed"
+}

@@ -1,0 +1,495 @@
+{
+  "data" : [
+      {
+     "name":"All",
+     "url": "/all"
+      },
+    {
+      "id": "1",
+      "name": "Vegetables",
+      "children": [
+        {
+           "id" : "1",
+          "name": "Leafy & Salad Vegetables",
+          "url" : "leafy",
+          "children": [
+            { 
+              "id" : "1",
+              "name": "Coriander Leaves (Dhonia Pata)",
+              "url": "child431"
+            },
+            {
+              "id" : "2",
+              "name": "Lal Shak (Red Spinach)",
+              "url": "child432,"
+            },
+            {
+              "id" : "3",
+              "name": "Palong Shak (Palong Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "5",
+              "name": "BadhaKopi (Cabbage)",
+              "url": "child433"
+            },
+            {
+              "id" : "6",
+              "name": "Kolmi Shak (Water Spinach)",
+              "url": "child431"
+            },
+            {
+              "id" : "7",
+              "name": "Shorshe Shak (Mustard Spinach)",
+              "url": "child432,"
+            },
+            {
+              "id" : "8",
+              "name": "Mula Shak (Radish Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "9",
+              "name": "Pui Shak (Pui Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "10",
+              "name": "ThanKuni Pata (Pennywort Leaves)",
+              "url": "child433"
+            },
+            {
+              "id" : "11",
+              "name": "Data Shak (Data Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "12",
+              "name": "Lettuce Leaves (Data Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "13",
+              "name": "Pudina Pata (Data Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "14",
+              "name": "Lau Shak (Data Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "15",
+              "name": "Bok Choy (Data Spinach)",
+              "url": "child433"
+            },
+            {
+              "id" : "16",
+              "name": "BadhaKopi Pata (Chinese Cabbage Leaves)",
+              "url": "child433"
+            },
+            {
+              "id" : "17",
+              "name": "Paan (Betel Leaf)",
+              "url": "child433"
+            },
+            {
+              "id" : "18",
+              "name": "Mehendi Pata (Henna Leaves)",
+              "url": "child433"
+            }
+          ]
+        },
+        {
+          "id" : "2",
+         "name" : "Root & Tuberous Vegetables",
+         "children" : [
+          {
+            "name": "Potato Regular",
+            "url": "child431"
+          },
+          {
+            "name": "Boro Alu(Big Diamond Potato",
+            "url": "child431"
+          },
+          {
+            "name": "Notun Alu(Potato Seasonal)",
+            "url": "child431"
+          },
+          {
+            "name": "Deshi Gajor(Local Carrot)",
+            "url": "child431"
+          },
+          {
+            "name": "Deshi Ada(Local Ginger)",
+            "url": "child431"
+          },
+          {
+            "name": "Ada(Local Carrot)",
+            "url": "child431"
+          },
+          {
+            "name": "Lal Alu(Red Potato)",
+            "url": "child431"
+          },
+          {
+            "name": "Mula(Radish)",
+            "url": "child431"
+          },
+          {
+            "name": "Lal Alu(Red Potato)",
+            "url": "child431"
+          },
+          {
+            "name": "Mula(Radish)",
+            "url": "child431"
+          },
+          {
+            "name": "Lal Alu(Red Potato Cardinal)",
+            "url": "child431"
+          },
+          {
+            "name": "Beetroot",
+            "url": "child431"
+          },
+          {
+            "name": "Mete Al(Mud Potato)",
+            "url": "child431"
+          },
+          {
+            "name": "Kohalrabi(Shalgom)",
+            "url": "child431"
+          },
+          {
+            "name": "Lal Mula(Red Radish)",
+            "url": "child431"
+          },
+          {
+            "name": "Misti Alu(Sweet Potato)",
+            "url": "child431"
+          },
+          {
+            "name": "Kacha Holud(Mud Potato)",
+            "url": "child431"
+          },
+          {
+            "name": "Thai Ada(Ginger Thai)",
+            "url": "child431"
+          }
+         ]
+        },
+        {
+          "name" : "Bulb and Stem Vegetables",
+          "children" : [
+           {
+             "name": "Local Onion",
+             "url": "child431"
+           },
+           {
+             "name": "Onion Red Imported(Lal Peyaj)",
+             "url": "child431"
+           },
+           {
+             "name": "Roshun(Garlic Imported)",
+             "url": "child431"
+           },
+           {
+             "name": "Deshi Roshun(Garlic Local)",
+             "url": "child431"
+           },
+           {
+             "name": "Lochur Mukhi(Taro Roots)",
+             "url": "child431"
+           },
+           {
+             "name": "Peyaj Pata(Spring Onion)",
+             "url": "child431"
+           },
+           {
+             "name": "Kochur Loti(Stolon of Taro)",
+             "url": "child431"
+           },
+           {
+             "name": "Lemon Glass Stock",
+             "url": "child431"
+           },
+           {
+             "name": "Lomba Kochu",
+             "url": "child431"
+           }
+          
+          ]
+        },
+        {
+          "name" : "Edible Flower Vegetables",
+          "children" : [
+           {
+             "name": "Fulkopi",
+             "url": "child431"
+           },
+           {
+             "name": "Dheros",
+             "url": "child431"
+           },
+           {
+             "name": "Onion Flowers",
+             "url": "child431"
+           },
+           {
+             "name": "Brocolli",
+             "url": "child431"
+           },
+           {
+             "name": "Aloe Vera",
+             "url": "child431"
+           }
+           
+          
+          ]
+        },
+        {
+          "name" : "Podded Vegetables",
+          "children" : [
+           {
+             "name": "Flat Bean(Sheems)",
+             "url": "child431"
+           },
+           {
+             "name": "Borboti(Long Bean)",
+             "url": "child431"
+           },
+           {
+             "name": "Green Peas(Motorshuti)",
+             "url": "child431"
+           },
+           {
+             "name": "Lal Borboti(Red Bean)",
+             "url": "child431"
+           },
+           {
+             "name": "Beans Seed(Sheemer Bichi)",
+             "url": "child431"
+           }
+           
+          
+          ]
+        },
+        {
+          "name" : "Fruits Vegetables",
+          "children" : [
+           {
+             "name": "Red Tomato",
+             "url": "child431"
+           },
+           {
+             "name": "Kacha Morich(Green Chilli)",
+             "url": "child431"
+           },
+           {
+             "name": "Deshi Shosha(Local Cucumber)",
+             "url": "child431"
+           },
+           {
+             "name": "Misty Kumra Fali(Sweet Pumpkin Slice)",
+             "url": "child431"
+           },
+           {
+             "name": "Green Capsicum",
+             "url": "child431"
+           },
+           {
+            "name": "Egg Plant(Lomba Kalo Begun_Long Brinjal Black)",
+            "url": "child431"
+          },
+          {
+            "name": "Chichinga(Snack Gourad)",
+            "url": "child431"
+          },
+          {
+            "name": "Kalo Gol Begun(Round Brinjals Black)",
+            "url": "child431"
+          },
+          {
+            "name": "Lau(Bottle Gourud)",
+            "url": "child431"
+          },
+          {
+            "name": "Uchche(Local Bitter Gourad)",
+            "url": "child431"
+          },
+          {
+            "name": "Sobuj Gol Begun(Round Brinjals Green)",
+            "url": "child431"
+          },
+          {
+            "name": "Korola(Bitter Gourd)",
+            "url": "child431"
+          },
+          {
+            "name": "Jali Kumra(Water Pumpkin)",
+            "url": "child431"
+          },
+          {
+            "name": "Green Tomato",
+            "url": "child431"
+          },
+          {
+            "name": "Dhundhul(Sponge Gourud)",
+            "url": "child431"
+          },
+          {
+            "name": "Bombay Chilli",
+            "url": "child431"
+          },
+          {
+            "name": "Jhinga(Ridge Gourud)",
+            "url": "child431"
+          },
+          {
+            "name": "Baby Corn",
+            "url": "child431"
+          },
+          {
+            "name": "Red Capsicum",
+            "url": "child431"
+          },
+          {
+            "name": "Misty Kumra(Sweet Pumpkin)",
+            "url": "child431"
+          },
+          {
+            "name": "Yellow Capsicum",
+            "url": "child431"
+          },
+          {
+            "name": "Cucumber, Deshi Khira",
+            "url": "child431"
+          },
+          {
+            "name": "Zucchini",
+            "url": "child431"
+          }
+           
+          
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fruits",
+      "url": "item1",
+      "children":[
+        {
+          "name": "Fresh Fruits",
+          "url": "child431",
+          "children" :[
+            {
+              "name": "Lomba Lebu(Long Lemon)",
+              "url": "child431"
+            },
+            {
+              "name": "Kacha Pepe(Green Papaya)",
+              "url": "child431"
+            },
+            {
+              "name": "Gol Lebu(Round Lemon)",
+              "url": "child431"
+            },
+            {
+              "name": "Kagozi Lebu(Kagozi Lemon)",
+              "url": "child431"
+            },
+            {
+              "name": "Kacha Kola(Banana Green)",
+              "url": "child431"
+            },
+            {
+              "name": "Malta(Special Offer)",
+              "url": "child431"
+            },
+            {
+              "name": "Strawberry(Imported)",
+              "url": "child431"
+            },
+            {
+              "name": "Shagor Kola(Banana Sagor)",
+              "url": "child431"
+            },
+            {
+              "name": "Banana Chompa",
+              "url": "child431"
+            },
+            {
+              "name": "Malta",
+              "url": "child431"
+            },
+            {
+              "name": "Malta",
+              "url": "child431"
+            },
+            {
+              "name": "Malta",
+              "url": "child431"
+            }
+
+          ]
+        },
+        {
+          "name": "Dried Fruits",
+          "url": "child431",
+          "children" :[
+            
+          ]
+        },
+        {
+          "name": "Canned Fruits",
+          "url": "child431",
+          "children" :[
+            
+          ]
+        }
+
+      ]
+  },
+  {
+    "name": "Nuts",
+    "url": "item1",
+    "children":[
+    ]
+},
+{
+  "name": "Meats",
+  "url": "item1",
+  "children":[
+  ]
+},
+{
+"name": "Fishes",
+"url": "item1",
+"children":[
+]
+},
+{
+"name": "Cooking Essentials",
+"url": "item1",
+"children":[
+]
+},
+{
+"name": "Dairy, Chilled & Eggs",
+"url": "item1",
+"children":[
+]
+},
+{
+"name": "Frozen Snacks",
+"url": "item1",
+"children":[
+]
+}
+  ]
+}
+    
+  
+
+
