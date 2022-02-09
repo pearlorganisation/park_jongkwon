@@ -99,7 +99,8 @@ return (
           <input type="email" placeholder="search for products " class="form-control navbar-input" id="exampleInputEmail1" aria-describedby="emailHelp" />
   
                                         <a className="nav-link dropdown-toggle icon-anchor" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            <i className="fas fa-home nav-home-icon"></i>     India
+                                            {/* <i className="fas fa-home nav-home-icon"></i>    */}
+                                              India
                                         </a>
                                         <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a className="dropdown-item" href="#">Action</a></li>
@@ -110,11 +111,13 @@ return (
                                    
                                    
                                         <a className="nav-link icon-anchor">
-                                            <i class="far fa-question-circle nav-help-icon"></i>Help</a>
+                                            {/* <i class="far fa-question-circle nav-help-icon"></i> */}
+                                            Help</a>
                                   
                                   
                                         <button className="btn nav-link icon-anchor">
-                                        <i className="fas fa-sign-in-alt nav-signin-icon"></i>Sign in</button>
+                                        {/* <i className="fas fa-sign-in-alt nav-signin-icon"></i> */}
+                                        Sign in</button>
                                    
         </Toolbar>
       </AppBar>
