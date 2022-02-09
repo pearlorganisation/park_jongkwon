@@ -16,10 +16,8 @@ import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Collapse from '@mui/material/Collapse';
 import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
-import image1 from "./images/footer-logo-1.webp"
-import image2 from "./images/footer-logo-2.webp"
 // import VisibleItemList from '../containers/VisibleItemList'
-
+import Footer from './Footer';
 import Homeproducts from "./Homeproducts"
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
@@ -34,8 +32,8 @@ const useStyles = makeStyles(theme => ({
   },
   appBar: {
     zIndex: theme.zIndex.drawer + 1,
-    backgroundColor:'#FFAE42',
-    color:'black'
+    backgroundColor: '#FFAE42',
+    color: 'black'
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -57,141 +55,136 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 function ResponsiveDrawer() {
-  const dummyCategories = ['All', 'Vegetables', 'Fruits', 'Nuts', 'Meats', 'Fishes' , 'Cooking Essentials' , 'Dairy, Chilled & Eggs' , 'Frozen Snacks']
+  const dummyCategories = ['All', 'Vegetables', 'Fruits', 'Nuts', 'Meats', 'Fishes', 'Cooking Essentials', 'Dairy, Chilled & Eggs', 'Frozen Snacks']
 
   const classes = useStyles();
   const theme = useTheme();
   const [mobileOpen, setMobileOpen] = React.useState(false);
-function handleDrawerToggle() {
+  function handleDrawerToggle() {
     setMobileOpen(!mobileOpen)
   }
-const drawer = (
+  const drawer = (
     <div>
       <List>
         {dummyCategories.map((text, index) => (
           <>
-          <ListItem button key={text}>
-            <ListItemText primary={text} />
-          </ListItem>
-         
-        </>
+            <ListItem button key={text}>
+              <ListItemText primary={text} />
+            </ListItem>
+
+          </>
         ))}
       </List>
     </div>
   );
-return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="Open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            className={classes.menuButton}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h5" noWrap className='header'>
+  return (
+    <>
+      
+
+            <div className={classes.root}>
+             
+              <CssBaseline />
+                  <AppBar position="fixed" className={classes.appBar}>
+                 
+                <Toolbar className="toolbar">
+        
+               <div className="logo-div">
+               <IconButton
+                    color="inherit"
+                    aria-label="Open drawer"
+                    edge="start"
+                    onClick={handleDrawerToggle}
+                    className={classes.menuButton}
+                  >
+                    <MenuIcon />
+                  </IconButton>
+                 
+                  <Typography variant="h5" noWrap className='header'>
           Ole0FreshBD 
           </Typography>
-          <input type="email" placeholder="search for products " class="form-control navbar-input" id="exampleInputEmail1" aria-describedby="emailHelp" />
-  
-                                        <a className="nav-link dropdown-toggle icon-anchor" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            {/* <i className="fas fa-home nav-home-icon"></i>    */}
-                                              India
-                                        </a>
-                                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a className="dropdown-item" href="#">Action</a></li>
-                                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                                            <li><hr className="dropdown-divider" /></li>
-                                            <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                   
-                                   
-                                        <a className="nav-link icon-anchor">
-                                            {/* <i class="far fa-question-circle nav-help-icon"></i> */}
-                                            Help</a>
-                                  
-                                  
-                                        <button className="btn nav-link icon-anchor">
-                                        {/* <i className="fas fa-sign-in-alt nav-signin-icon"></i> */}
-                                        Sign in</button>
-                                   
-        </Toolbar>
-      </AppBar>
-      
-      <nav className={classes.drawer}>
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
-        <Hidden smUp implementation="css">
-          <Drawer
-            variant="temporary"
-            anchor={theme.direction === 'rtl' ? 'right' : 'left'}
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-            ModalProps={{
-              keepMounted: true, // Better open performance on mobile.
-            }}
-          >
-            <IconButton onClick={handleDrawerToggle} className={classes.closeMenuButton}>
-              <CloseIcon/>
-            </IconButton>
-            {drawer}
-          </Drawer>
-        </Hidden>
-<Hidden xsDown implementation="css">
-          <Drawer
-            className={classes.drawer}
-            variant="permanent"
-            classes={{
-              paper: classes.drawerPaper,
-            }}
-          >
-            <div className={classes.toolbar} />
-            {drawer}
-          </Drawer>  
-        </Hidden>
-      </nav>
-      <div className={classes.content}>
-        <div className={classes.toolbar} />
-        {/* <VisibleItemList /> */}
-        <Homeproducts />
-
-        <div className="row">
-                    <div className="col-md-12 mx-auto">
- 
-                     <div className="footer-div">
-                         <div className="footer-anchors-div">
-                         <a href="" className="footer-anchor mx-3">About Us</a>
-                         <a href="" className="footer-anchor mx-3">Contact Us</a>
-                         <a href="" className="footer-anchor mx-3">Join Us</a>
-                         <a href="" className="footer-anchor mx-3">Terms & Privacy Policy</a>
-                         <div className="mx-3 mt-lg-3">
-                             <p>Copyright 2021 OLEOBD , All right reserved</p>
-                         </div>
-                         </div>
-                         
-                        
-                         <div>
-                         <h3 className="footer-heading">DOWNLOAD OLEOBD APP</h3>
-                         <div class="footer-logo-div">
-                             <img src={image1} class="footer-logo-1" alt="..." />
-                             <img src={image2} class="footer-logo-1" alt="..." />
-                         </div>
-                     </div>
-                     </div>
-
+               </div>
+                  
                      
                    
-                    </div>
-                </div>
+                      <input type="email" placeholder="search for products " className="form-control navbar-input" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                
+              <div className="icon-anchor-div">
+              <a className="nav-link dropdown-toggle icon-anchor" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        {/* <i className="fas fa-home nav-home-icon"></i>    */}
+                        India
+                      </a>
+          
+                   
+                  
+                      <a className="nav-link icon-anchor-1">
+                        {/* <i class="far fa-question-circle nav-help-icon"></i> */}
+                        Help</a>
+                   
+                    
+                      <button className="btn nav-link icon-anchor-2">
+                        {/* <i className="fas fa-sign-in-alt nav-signin-icon"></i> */}
+                        Sign in</button>
+              </div>
+               
+                     
+                 
+                </Toolbar>
+                
+              </AppBar>
+             
+              
 
-      </div>
-    </div>
+              <nav className={classes.drawer}>
+                {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
+                <Hidden smUp implementation="css">
+                  <Drawer
+                    variant="temporary"
+                    anchor={theme.direction === 'rtl' ? 'right' : 'left'}
+                    open={mobileOpen}
+                    onClose={handleDrawerToggle}
+                    classes={{
+                      paper: classes.drawerPaper,
+                    }}
+                    ModalProps={{
+                      keepMounted: true, // Better open performance on mobile.
+                    }}
+                  >
+                    <IconButton onClick={handleDrawerToggle} className={classes.closeMenuButton}>
+                      <CloseIcon />
+                    </IconButton>
+                    {drawer}
+                  </Drawer>
+                </Hidden>
+                <Hidden xsDown implementation="css">
+                  <Drawer
+                    className={classes.drawer}
+                    variant="permanent"
+                    classes={{
+                      paper: classes.drawerPaper,
+                    }}
+                  >
+                    <div className={classes.toolbar} />
+                    {drawer}
+                  </Drawer>
+                </Hidden>
+              </nav>
+              <div className={classes.content}>
+                <div className={classes.toolbar} />
+                {/* <VisibleItemList /> */}
+                <Homeproducts />
+               <Footer />
+
+
+
+
+              </div>
+            </div>
+
+         
+
+    </>
+
+
   );
 }
 ResponsiveDrawer.propTypes = {

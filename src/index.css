@@ -49,7 +49,20 @@ body{
   font-size: 20px;
   margin-right:10px;
 }
+.icon-anchor-div{
+  display:flex
+}
 .icon-anchor{
+  font-size: 20px;
+  color:black;
+  padding-left:36px
+}
+.icon-anchor-1{
+  font-size: 20px;
+  color:black;
+  padding-left:36px
+}
+.icon-anchor-2{
   font-size: 20px;
   color:black;
   padding-left:36px
@@ -105,31 +118,78 @@ body{
   display: flex;
   justify-content: space-between !important;
 }
-.footer-logo-div{
+/* .footer-logo-div{
   display: flex;
   justify-content: space-between !important;
-}
+} */
 .footer-logo-1{
   width:200px;
   height:75px;
   object-fit: fill;
 }
-/* .footer-heading{
+ .footer-logo-heading{
   padding-left:12px
 }
-.footer-anchors-div{
-  padding-left:124px;
-  padding-top:12px
-} */
+.footer-anchor-div{
+  display:flex;
+  /* padding-left:124px;
+  padding-top:12px */
+} 
 .footer-anchor{
   font-size:20px;
+  color:black;
   text-decoration: none;
-  color:black
 }
-
 /* topbar */
 .drawer{
   top:68px !important;
   left:0px;
   position:"fixed"
+}
+
+
+@media only screen and (max-width:468px){
+  .logo-div{
+    display:flex;
+  }
+  .header{
+    padding-top: 10px;
+  }
+  .navbar-input{
+    width:300px !important;
+    margin-left:-2px
+  }
+  .icon-anchor-div{
+    display:flex !important;
+
+  }
+  .icon-anchor{
+    margin-left: -8px !important;
+    padding-left: 10px
+  }
+  .MuiToolbar-root{
+  display:block !important
+  }
+  .products-column{
+    margin-top:84px
+  }
+  .product-card-image{
+    height:150px
+  }
+  .footer-div{
+    display:block
+  }
+  .footer-anchor{
+    font-size:16px
+  }
+  .footer-anchor-div{
+    display:block
+  }
+  .footer-single-anchor{
+    margin:10px
+  }
+  .footer-logo-heading{
+    font-size:20px;
+    padding-top:16px
+  }
 }

@@ -13,9 +13,9 @@ function Homeproducts(){
         <>
         <div className="container-fluid">
             <div className="row">
-            <div className="col-md-12 mt-lg-3">
+            <div className="col-md-12 mt-lg-3 products-column">
                         <div className="row">
-                            <div className="col-md-3 mx-auto p-lg-4">
+                            <div className="col-md-3 mx-auto p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image1} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -24,7 +24,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto p-lg-4">
+                            <div className="col-md-3 mx-auto p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image2} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -33,7 +33,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto p-lg-4">
+                            <div className="col-md-3 mx-auto p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image3} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -42,7 +42,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto p-lg-4">
+                            <div className="col-md-3 mx-auto p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image4} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -55,7 +55,7 @@ function Homeproducts(){
                         </div>
 
                         <div className="row">
-                        <div className="col-md-3 mx-auto my-lg-3 p-lg-4">
+                        <div className="col-md-3 mx-auto my-lg-3 p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image5} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -64,7 +64,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4">
+                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image6} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -73,7 +73,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4">
+                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image7} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -82,7 +82,7 @@ function Homeproducts(){
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4">
+                            <div className="col-md-3 mx-auto my-lg-3 p-lg-4 p-2">
                                 <div class="card">
                                     <img src={image8} class="card-img-top product-card-image" alt="..." />
                                     <div class="card-body product-card-body">
@@ -115,6 +115,7 @@ function Homeproducts(){
 
                       </div>
             </div>
+            <hr />
         </div>
         </>
     )
