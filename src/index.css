@@ -193,3 +193,50 @@ body{
     padding-top:16px
   }
 }
+
+@media only screen and (min-width:468px) and (max-width:768px){
+  .logo-div{
+    display:flex;
+  }
+  .header{
+    padding-top: 10px;
+  }
+  .navbar-input{
+    width:400px !important;
+    margin-left:-2px
+  }
+  .icon-anchor-div{
+    display:flex !important;
+
+  }
+  .icon-anchor{
+    margin-left: -8px !important;
+    padding-left: 10px
+  }
+  .MuiToolbar-root{
+  display:block !important
+  }
+  .products-column{
+    margin-top:84px
+  }
+  .product-card-image{
+    height:150px
+  }
+  .footer-div{
+    display:block
+  }
+  .footer-anchor{
+    font-size:16px
+  }
+  .footer-anchor-div{
+    display:block
+  }
+  .footer-single-anchor{
+    margin:10px
+  }
+  .footer-logo-heading{
+    font-size:20px;
+    padding-top:16px
+  }
+}
+

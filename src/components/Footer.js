@@ -48,7 +48,7 @@ function Footer(){
 
                          <div>
 
-                         <h3 className="footer-logo-heading">DOWNLOAD OLEOBD APP</h3>
+                         <h4 className="footer-logo-heading">DOWNLOAD OLEOFRESHBD APP</h4>
                          
                          <img src={image1} class="footer-logo-1" alt="..." />
                        

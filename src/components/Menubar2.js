@@ -18,7 +18,13 @@ import ExpandLess from '@material-ui/icons/ExpandLess';
 import ExpandMore from '@material-ui/icons/ExpandMore';
 // import VisibleItemList from '../containers/VisibleItemList'
 import Footer from './Footer';
-import Homeproducts from "./Homeproducts"
+import Vegetables from './Vegetables';
+import All from "./Homeproducts"
+import Fruits from './Fruits';
+import Nuts from './Nuts';
+import Meats from './Meats';
+import Fishes from './Fishes';
+import {BrowserRouter, Routes, Route, Link} from "react-router-dom"
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
   root: {
@@ -68,7 +74,7 @@ function ResponsiveDrawer() {
       <List>
         {dummyCategories.map((text, index) => (
           <>
-            <ListItem button key={text}>
+            <ListItem button key={text} component={Link} to={"/" + text}>
               <ListItemText primary={text} />
             </ListItem>
 
@@ -132,7 +138,7 @@ function ResponsiveDrawer() {
                 
               </AppBar>
              
-              
+              <BrowserRouter>
 
               <nav className={classes.drawer}>
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
@@ -171,13 +177,24 @@ function ResponsiveDrawer() {
               <div className={classes.content}>
                 <div className={classes.toolbar} />
                 {/* <VisibleItemList /> */}
-                <Homeproducts />
+
+                <Routes>
+                  <Route path="/" element={<All />} />
+                 <Route path="/All" element={<All />} />
+                 <Route path="/Vegetables" element={<Vegetables />} />
+                 <Route path="/Fruits" element={<Fruits />} />
+                 <Route path="/Nuts" element={<Nuts />} />
+                 <Route path="/Meats" element={<Meats />} />
+                 <Route path="/Fishes" element={<Fishes />} />
+                </Routes>
+                {/* <All /> */}
                <Footer />
 
 
 
 
               </div>
+              </BrowserRouter>
             </div>
 
          
