@@ -89,6 +89,7 @@ function ResponsiveDrawer() {
 
             <div className={classes.root}>
              
+                 <BrowserRouter>
               <CssBaseline />
                   <AppBar position="fixed" className={classes.appBar}>
                  
@@ -105,7 +106,7 @@ function ResponsiveDrawer() {
                     <MenuIcon />
                   </IconButton>
                  
-                  <Typography variant="h5" noWrap className='header'>
+                  <Typography variant="h5" noWrap className='header' button component={Link} to={"/"}>
           Ole0FreshBD 
           </Typography>
                </div>
@@ -138,7 +139,6 @@ function ResponsiveDrawer() {
                 
               </AppBar>
              
-              <BrowserRouter>
 
               <nav className={classes.drawer}>
                 {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
